@@ -1,139 +1,132 @@
-# 🌌 Cosmic Cantina - Sith Edition 🍽️  
-*A Star Wars–themed Canteen Pre-Order System*  
-Built for the **Prompt Wars Hackathon**
+# 🍽️ ChummaOrder  
+*A Modern, Mobile-Optimized Canteen Pre-Order System*
 
-> 🚀 Live Site: [cosmic-cantina-promptwars.netlify.app](https://cosmic-cantina-promptwars.netlify.app/)
+> 🚀 **Live Site**: [cosmic-cantina-promptwars.netlify.app](https://cosmic-cantina-promptwars.netlify.app/)  
+> *(Temporary deployment link — production domain coming soon)*
 
 ---
 
-## 🧠 What is Cosmic Cantina?
+## 🧠 What is ChummaOrder?
 
-**Cosmic Cantina** is a Sith-themed, Star Wars–inspired campus canteen pre-order system developed as part of the **Prompt Wars Hackathon**. This smooth and highly functional web app allows students to browse menus from **all food outlets in the VIT Chennai campus**, pre-order meals, and track order status — all in real-time.
+**ChummaOrder** is a smart and intuitive canteen pre-ordering system built for college campuses. It allows students to explore menus from **all food outlets in the VIT Chennai campus**, place pre-orders, and track their order status in real-time.
 
-It includes **two portals**:
-- 👨‍🎓 **Student Portal**: For browsing menus, adding items to cart, placing orders, and tracking status.
-- 👩‍🍳 **Canteen Staff Portal**: For managing incoming orders, updating status (processing, ready, completed), and handling outlet-specific orders.
+The system includes two main portals:
 
-All data is stored and synced using **Supabase** and **PostgreSQL**, ensuring a robust and real-time experience across all users.
+- 👨‍🎓 **Student Portal**: Browse menus, add items to cart, place orders, and track live order status.
+- 👩‍🍳 **Canteen Staff Portal**: Manage incoming orders, update statuses (Processing, Ready, Completed), and serve outlet-specific requests.
+
+All interactions are backed by **Supabase** and **PostgreSQL**, ensuring a fast, secure, and synchronized experience.
 
 ---
 
 ## 💻 Tech Stack
 
-| Layer             | Tech Used                              |
-|------------------|-----------------------------------------|
-| **Frontend**      | React, HTML5, CSS3, TailwindCSS         |
-| **Backend-as-a-Service** | Supabase                         |
-| **Database**      | PostgreSQL (via Supabase)               |
-| **Authentication**| Supabase Auth                          |
-| **Deployment**    | Netlify (Frontend)                     |
+| Layer                  | Tech Used                         |
+|------------------------|----------------------------------|
+| **Frontend**           | React, HTML5, CSS3, Tailwind CSS |
+| **Backend-as-a-Service** | Supabase                        |
+| **Database**           | PostgreSQL (via Supabase)        |
+| **Authentication**     | Supabase Auth                    |
+| **Deployment**         | Netlify (Frontend)               |
 
-> 🔥 The app is smooth, responsive, mobile-optimized, and supports real-time interactions via Supabase.
-
----
-
-## 🎯 Hackathon Track
-
-> **Track Chosen:** Full Stack Development
-
-Cosmic Cantina is a **complete full-stack application** featuring:
-- Dynamic, animated UI
-- Secure authentication
-- Real-time database updates
-- Role-based user flows
+> ⚡ The app is responsive, mobile-first, and optimized for both web and mobile use.
 
 ---
 
-## 🧩 Problem Statement
+## 🧩 Why ChummaOrder?
 
 College students often face:
-- Long queues during peak hours
-- Delays in food orders
-- No real-time updates on order status
-- Lack of centralized, consistent ordering platform
 
-**Cosmic Cantina** addresses this by offering:
-- A **digital pre-order system**
-- Real-time order tracking for students
-- Centralized dashboard for canteen staff
-- Streamlined communication between both parties
+- Long queues during peak hours
+- Delayed food delivery
+- No visibility on order status
+- Lack of a unified ordering platform
+
+**ChummaOrder** solves these problems through:
+
+- A centralized **pre-order platform**
+- Real-time order tracking and notifications
+- A clean interface for both students and canteen staff
+- Reduced physical crowding and faster delivery times
 
 ---
 
 ## 🚀 Features
 
-### 🧑‍🎓 Student Portal
+### 👨‍🎓 Student Portal
 
-- 🔐 Login/Signup
-- 📋 Dashboard with all campus outlets
-- 🍴 Browse detailed menus from every food stall
-- 🛒 Add items to cart
-- 💳 Checkout and confirm orders
-- 📦 View past orders and statuses
-- 🚨 Real-time order status updates
-- 🌌 Smooth animations & dark Sith-themed UI
+- 🔐 Secure Login/Signup
+- 📋 Dashboard listing all campus food outlets
+- 🍽️ Browse detailed menus by outlet
+- 🛒 Cart system and order confirmation
+- ⏱️ Real-time order status tracking
+- 📦 Persistent order history
+- 💡 Clean, intuitive, mobile-optimized UI
 
 ### 👩‍🍳 Staff Portal
 
-- 🔐 Staff authentication
-- 📊 View all incoming orders for their outlet
-- 🔄 Update order status with control buttons:
-  - "Start Processing"
-  - "Order Ready"
-  - "Completed"
-- 🔁 Updates reflected instantly in the student dashboard
+- 🔐 Staff login with role-based access
+- 📥 View incoming orders for their specific outlet
+- 🎛️ Update order status:
+  - Start Processing
+  - Order Ready
+  - Completed
+- 🔄 Real-time sync with student dashboard
 
 ---
 
-## 🔐 Existing Staff Login Credentials (Experimental – VIT Chennai)
+## 🔐 Staff Login Credentials (VIT Chennai Sample – Preloaded for Testing)
 
-The following staff accounts are **preloaded in the database** for testing and demonstration purposes. These accounts belong to the **canteen staff** managing different outlets in VIT Chennai (sample for testing) . Use these credentials to log in to the **Staff Portal**.
+These demo staff accounts are available in the system for test purposes:
 
-| Full Name         | Email Address                      | Password (To Be Added) |
-|-------------------|-------------------------------------|------------------------|
-| Gazebo C3         | gazebo3vitc@gmail.com               | gazeboc3@pass#
+| Full Name         | Email Address                      | Password (To Be Added)     |
+|-------------------|-------------------------------------|----------------------------|
+| Gazebo C3         | gazebo3vitc@gmail.com               | gazeboc3@pass#             |
 | North Square C1   | northsquarec1vitc@gmail.com         | northsquarec1@pass#        |
-| Gazebo C2         | gazebo2vitc@gmail.com               | gazeboc2@pass#      |
-| North Square C3   | northsquarec3vitc@gmail.com         | northsquarec3@pass#       |
-| Gazebo C1         | gazebocvitc@gmail.com               | gazeboc1@pass#        |
-| Gazebo C4         | gazebo4vitc@gmail.com               | gazeboc4@pass#        |
+| Gazebo C2         | gazebo2vitc@gmail.com               | gazeboc2@pass#             |
+| North Square C3   | northsquarec3vitc@gmail.com         | northsquarec3@pass#        |
+| Gazebo C1         | gazebocvitc@gmail.com               | gazeboc1@pass#             |
+| Gazebo C4         | gazebo4vitc@gmail.com               | gazeboc4@pass#             |
 | North Square C2   | northsquare2vitc@gmail.com          | northsquarec2@pass#        |
-| Gymkhana          | gymkhanavitc@gmail.com              | gymkhana@pass#       |
+| Gymkhana          | gymkhanavitc@gmail.com              | gymkhana@pass#             |
 | North Square C4   | northsquare4vitc@gmail.com          | northsquarec4@pass#        |
+
+---
 
 ## 🛠 Functional Highlights
 
-✅ Smooth and responsive UI  
-✅ Star Wars–inspired design language  
-✅ Role-based routing  
-✅ Full menu browsing experience  
-✅ Cart & order placement  
-✅ Supabase-powered real-time status sync  
-✅ Persistent order history  
-✅ Campus outlet–based order segregation  
+- ✅ Clean and mobile-friendly UI
+- ✅ Role-based login (students/staff)
+- ✅ Menu browsing with search functionality
+- ✅ Cart + secure order placement
+- ✅ Real-time status tracking (powered by Supabase)
+- ✅ Outlet-specific order filtering
+- ✅ Order history for students
 
 ---
 
-## 💼 Business Model (Future Potential)
+## 💼 Future Potential & Business Model
 
-While built as a hackathon project, **Cosmic Cantina** has commercial viability:
+**ChummaOrder** is built as a scalable product with potential deployment in other campuses and institutions.
 
-### Monetization Ideas:
-- **Payment Gateway** to process payment online when completing checkout
-- **SaaS Licensing** to other college campuses
-- **Premium Queue Passes** for express orders
-- **Outlet Subscription** for real-time analytics, priority support
-- **Ad Revenue** through featured meals or promotions
+### Possible Monetization Strategies:
+
+- 💳 Online payment gateway integration
+- ⚡ Express queue passes for premium users
+- 🏫 Licensing model for other colleges and universities
+- 📈 Real-time analytics dashboards for outlet owners
+- 📢 Sponsored meals and ad placements within menus
+
+---
+
+## 📎 Coming Soon
+
+- ✅ OTP verification for users
+- ✅ Admin dashboard
+- ✅ Integrated payment system
+- ✅ Push notifications (via mobile/web)
+- ✅ QR-based order pickup
 
 ---
 
-## 🏅 Bounties & Challenges Completed
 
-✅ Identity - Submitted an AI-generated Star Wars–inspired character that reflects our team’s name, energy, and style. 
-✅ Easter Egg- Pops out when you click on "Smart Digital Ordering" on the landing page of our site. 
-✅ Added 3D effects to the website which feels alive, immersive, and dynamic.
-✅ Project explaination and working video uploaded on youtube
-✅ Live Deployment on Netlify  
-✅ Hackathon Track Submission: **Full Stack**
-
----
