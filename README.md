@@ -1,7 +1,7 @@
 # 🍽️ ChummaOrder  
 *A Modern, Mobile-Optimized Canteen Pre-Order System*
 
-> 🚀 **Live Site**: [cosmic-cantina-promptwars.netlify.app](https://chummaorder.netlify.app/)  
+> 🚀 **Live Site**: [chummaorder.netlify.app](https://chummaorder.netlify.app/)  
 > *(Temporary deployment link — production domain coming soon)* 
 
 ---
